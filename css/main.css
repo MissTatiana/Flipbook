@@ -1,0 +1,200 @@
+/*	=	=	=	=	 Body styles =	=	=	=	=	=	=	*/
+body{
+	width: 1000px;
+	font-size: 62.5%;
+	font-family: 'Averia Gruesa Libre', cursive;
+	background: url(../images/lined_paper.jpg);
+	margin: 0 auto;
+}
+
+header{
+	width: 100%;
+	margin-left: 8px;
+}
+
+.head img{
+	width: 100%;
+	max-width: 100%;
+}
+
+/*	=	=	=	=	 Sub section divs	=	=	=	=	=*/
+.left{
+	float: left;
+	margin-left: 1%;
+}
+
+.right{
+	float: right;
+	margin-right: 1%;
+}
+
+.boxes{
+	background: url(../images/subbox.png);
+	background-repeat: no-repeat;
+	width: 49%;/*470px*/
+	height: 360px; 
+	margin-top: 20px;
+}
+
+.boxes h3{
+	margin-top: 5%;
+	margin-left: 5%;
+	font-size: 2.50em;
+}
+
+.boxes p{
+	margin-top: -4%;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 1.50em
+}
+
+#badge_div{
+	margin-left: 130px;
+	margin-top: -20px;
+}
+
+/* 	=	=	=	=	=	Bottom Section 	=	=	=	=	*/
+
+.Lsection{
+	margin-left: 2%;
+}
+
+#top{
+	background: url(../images/top.png);
+	background-repeat: no-repeat;
+	width: 960px;
+	height: 150px;
+	margin-top: 320px;
+}
+
+#top h3{
+	text-align: center;
+}
+
+#content{
+	background: url(../images/content.png);
+	background-repeat: repeat-y;
+	width: 960px;
+	height: 900px;
+	margin: 0;
+	padding: 0;
+}
+
+.Lsection h3{
+ 	font-size: 3.00em;
+ 	margin-left: 4%;
+ }
+
+#bottom{
+	background: url(../images/bottom.png);
+	background-repeat: no-repeat;
+	width: 960px;
+	height: 215px;
+}
+
+/*	=	=	=	Image and video	=	=	=	*/
+
+#imageViewer{
+	margin-left: 130px;
+}
+
+#buttons{
+	margin-left: 30px;
+}
+
+#arrowLeft{
+	margin-right: 475px;
+}
+
+iframe{
+	margin-left: 175px;
+	margin-top: 40px;
+}
+
+/*	=	=	=	=	=	Last Section	=	=	=	=	*/
+#people{
+	background: url(../images/lastbox.png);
+	background-repeat: no-repeat;
+	margin: 20px 0 50px 20px;
+	width: 940;
+	height: 270;
+}
+
+#people h3{
+	font-size: 3.00em;
+	margin: 20px 0 0 0px;
+	padding-top: 25px;
+	text-align: center;
+}
+
+#people dl{
+	margin: 20px 0 0 335px;
+}
+
+#people dt{
+	font-size: 2.00em;
+	margin: 0 0 0 80px;
+	text-decoration: 
+}
+
+#people dd{
+	font-size: 2.00em;
+}
+
+
+/*	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=
+							Media Queries	
+=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
+/* 	=	=	=	=	=	=	Ipod	=	=	=	=	=	=	=	*/
+
+@media screen and (max-width: 800px){
+
+	body{
+		width: 800px;
+		margin: 0 auto;	
+	}
+
+	header{
+		margin: 0 auto
+	}
+
+	 img{
+	 	max-width: 97%;
+	 	width: 97%;
+	 }
+
+	 .right{
+	 	margin-right: 5%;
+	 }
+
+	 .boxes{
+	 	background: url(../images/subbox-ipod.png);
+	 	background-repeat: no-repeat;
+	 	width: 375px;
+	 }
+
+	 .boxes p{
+	 	margin-top: -6%;
+	 	width: 
+	 }
+
+	 .button{
+	 	margin-left: 55%;
+	 }
+
+	 .Lsection{
+	 	background: url(../images/section-ipad.png);
+	 	background-repeat: no-repeat;
+	 	width: 720px;
+	 	margin-top: 345px;
+	 	margin-left: 3%;
+	 }
+
+	 .Lsection h3{
+	 	margin-left: 3%;
+
+	 }
+
+}
+
